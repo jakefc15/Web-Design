@@ -1,0 +1,37 @@
+1. What is the difference between the Internet and the World Wide Web (WWW)?
+The World Wide Web is the collection of websites and pages around the world; the internet is a worldwide set of computer networks that is
+larger than the world wide web and also includes other services such as email.
+
+3. What organization decides on standards for web pages and languages?
+World Wide Web Consortium or W3C
+
+5. Which of the following are legal IP addresses?
+a) www.google.com
+no
+b) 150.135.1.150
+yes
+c) 123.456.789.10
+no
+d) 241.259.17.127
+no
+e) 10.0.0.1
+yes
+
+7. Name three major web browsers and one major web server program used today. Why does a website designer need to care about the different
+ browsers used by visitors to the site?
+	Web Browsers: Google Chrome, Mozilla Firefox, Microsoft Edge
+	Web Server: Apache
+	It is important for a website designer to are about the different browsers because the web designer needs to make sure that their 
+	web page can run well on all of them.
+
+8. What would be the correct URL to download the file coralize.js from the folder /bin/bookmark/ on the server www.coralcdn.org.nyud.net
+ on port 8080?
+http://www.coralcdn.org.nyud.net:8080/bin/bookmark/coralize.js
+
+9. What is the difference between an HTTP GET and POST request?
+HTTP GET requests a file from server
+HTTP POST submits form data to server
+
+10. What does an HTTP error 403 mean? Why might you see an HTTP error 500?
+403 means that you are forbidden to access this page
+500 means there is an internal server error which could be because some part of the server is not configured correctly
