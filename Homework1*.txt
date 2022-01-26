@@ -52,3 +52,6 @@ To show an &amp;, put &amp;amp; instead.<\p>
 8. The element you can use to respect the whitespace in a piece of text is <pre>
 9. Web standards are a general group of formal standards and technical specifications for various aspects of Web. You should follow the web standards because it helps the web page that you create work correctly on all browsers, and will allow the page to run better in the future. It also helps people with disabilities like blindness
 12. The use of the meta tag is to describe metadata about the HTML document. The meta tag used for the search engine "snippet" is meta description.
+
+Text Editor: Notepad
+Browser: Chrome
