@@ -1,3 +1,5 @@
+Chapter 1
+
 1. What is the difference between the Internet and the World Wide Web (WWW)?
 The World Wide Web is the collection of websites and pages around the world; the internet is a worldwide set of computer networks that is
 larger than the world wide web and also includes other services such as email.
@@ -35,3 +37,11 @@ HTTP POST submits form data to server
 10. What does an HTTP error 403 mean? Why might you see an HTTP error 500?
 403 means that you are forbidden to access this page
 500 means there is an internal server error which could be because some part of the server is not configured correctly
+
+Chapter 2
+
+1. HTML should be used to describe the content of a web page. It should not be used for appearance.
+3. Block elements describe an entire region of content. An example is paragraph. Inline elements affect a small amount of content. An example is bold.
+4. An element encloses contents in between tags. Attributes are used to define the character of an HTML element. Example: <p align="center">
+9. Web standards are a general group of formal standards and technical specifications for various aspects of Web. You should follow the web standards because it helps the web page that you create work correctly on all browsers, and will allow the page to run better in the future. It also helps people with disabilities like blindness
+12. The use of the meta tag is to describe metadata about the HTML document. The meta tag used for the search engine "snippet" is meta description.
