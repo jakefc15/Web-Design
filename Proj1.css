@@ -1,0 +1,41 @@
+a {
+    text-decoration: none;
+  }
+h2 {
+    color: green;
+    text-align: center;
+}
+.title {
+      color: green;
+      font-size: 50;
+      text-align: center;
+}
+  
+img {
+    display: block;
+    margin: auto;
+}
+  
+p {
+    color: black;
+    text-align: center;
+}
+  
+.quoteintro {
+    font-size: 12;
+}
+  
+.quote {
+    font-style: italic;
+}
+  
+ol {
+    color: black;
+    display: table;
+    margin: 0 auto;  
+}
+  
+table {
+    margin: 30 auto;
+    text-align: center;
+}
