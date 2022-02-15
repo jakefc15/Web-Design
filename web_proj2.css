@@ -1,0 +1,66 @@
+a {
+    color: blue;
+    font-style: italic;
+    text-decoration: none;
+  }
+
+a:hover {
+  background-color: lightgreen;
+}
+
+body {background-color: rgb(90, 59, 88);}
+  
+h2 {
+    color: green;
+    
+  }
+  .title {
+      color: green;
+      font-family:Futura, "Trebuchet MS", Arial, sans-serif ;
+      font-size: 50;
+      text-align: center;
+  }
+  
+  img {
+    display: block;
+    border: 5px solid transparent;
+    border-image: url(https://scontent.cdninstagram.com/v/t51.39111-15/273405375_1182914045578886_6917142381204248159_n.jpg?stp=dst-jpg_s240x240&_nc_cat=103&ccb=1-5&_nc_sid=5a057b&_nc_ohc=hS0iVmHt__4AX8FQj0_&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.cdninstagram.com&oh=02_ARqA8YG2yyCRFFu3cB7VCjUGAVEXs2tu5YFyZBPtWVesuQ&oe=620FC8B5) 20% round;
+    border-image: url(https://scontent.cdninstagram.com/v/t51.39111-15/s240x240/273410977_4698845763559491_1897777742138379300_n.jpg?_nc_cat=107&ccb=1-5&_nc_sid=5a057b&_nc_ohc=_9WvbeXnQSMAX9XCM2f&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.cdninstagram.com&oh=02_ARq6uZ1kBXxmJTWH60uvIOYyNDIEaX5crgaOQCgmL1ji8g&oe=620F1FF7) 20% round;
+    margin: auto;
+    padding: 5px;
+  }
+  
+  p {
+    color: black;
+    text-align: center;
+  }
+  
+  .quoteintro {
+    font-size: 12;
+  }
+  
+  .quote {
+    font-style: italic;
+  }
+  
+  .rn {
+    list-style-type: upper-roman;
+      }
+  
+ol {
+    color: black;
+    display: table;
+    list-style-type: lower-greek; 
+  }
+  
+  table {
+    margin: 30 auto;
+    text-align: center;
+  }
+  
+  .row0{
+    background:blue;
+   }
+   .row1{
+    background:green;
+   }
