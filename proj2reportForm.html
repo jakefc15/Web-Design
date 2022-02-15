@@ -1,0 +1,183 @@
+<!DOCTYPE html> <!-- version: HTML 5 -->
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="Author" content="Chao Gong" />
+  <title>Web Development Project</title>
+  <style type = "text/css">
+	 @import url("./web_proj2.css"); 
+  </style>
+</head>
+
+<body>
+<div class="highlight">
+<p class="noSpaceBelow">Project turn-in instructions:</p>
+<ul class="noSpaceAbove"> 
+<li>Please <em>upload</em> the following documents to <a href="http://mycourses.umhb.edu">LMS</a> in required format.
+	<ul>
+	<li>Finished project report form as a webpage (*.html) file. 
+	If you cannot edit the report in HTML, then edit the report as a plain text (*.txt) file,  
+	but 3 points will be deducted. No other file formats please.</li>
+	<!--
+	<li>HTML source code (including the document-level style sheet) as a HTML file.</li>
+	<li>The webpage you designed as a PDF file. If you cannot convert the webpage to PDF file, an alternative option is to take a snapshot of the webpage and save it as an image file.</li> 
+	-->
+	</ul>
+</li>
+<li>If no project report form has been handed in, a grade of zero will be recorded.</li>
+</ul>
+</div>
+
+<h1>Web Development Project: CSS</h1>
+
+<p>Add an <em>internal/embedded style sheet</em> (CSS style sheet embedded in the page's head section as a style element) 
+to the webpage constructed in Project 1 (a webpage introducing somebody or something.) 
+In order to finish this project, you may need to add more contents to the webpage or create a new webpage from scratch.</p>
+
+<p>With this style sheet, the webpage is displayed by browsers in different and prettier styles than before: </p>
+
+<ol>
+	<li>The webpage has a background image or background color other than the default color. Please pay attention in selecting 
+background so that the text is easy to read.</li>
+	<li>The webpage contains a center-aligned heading which is of a different font family and color than the text.</li>
+	<li>In the 2-level nested ordered list, the outer list uses uppercase Roman numerals as list-item markers (sequencing values), and the markers of the inner list are lowercase Greek letters. </li>
+	<li>Hypertext links (whose content is text) are in italics but not underlined. </li>
+	<li>When the mouse cursor is hovering over a hypertext link, the presentation style of the link changes to make the hypertext link immediately noticeable.
+	For example, the background color changes or the hypertext link becomes underlined.</li>
+	<li>The two images are displayed with borders, as if they were put into photo frames. </li>
+	<li>The odd and even numbered rows of the table have different background colors. </li>
+</ol>
+
+<p>The style sheet should be documented with at least one CSS comment.</p>
+
+<p>Here are some <a href="./proj2_hint.html">hints</a> for the project.</p>
+<hr />
+
+<h1>Project Report Form</h1>
+<p>NAME: _________Jake Gilbert___________
+<span class="movingRight">&check; I would like to have my webpage presented in the class.</span></p>
+
+<p>Total: 50 points (5% of final grade). The completeness and correctness of the project turn-in count for 5 points. 
+Answers to the following questions count for 45 points.</p>
+
+<p>1. (5 points) Does the webpage has a background image or color? Color <br />
+List below the CSS rules setting up the background image or color.
+</p> 
+<pre> 
+    body {
+        background-color: rgb(90, 59, 88);
+    }
+    &nbsp; 
+</pre>
+
+<p>2. (5 points) Does the webpage contain a center-aligned heading which is of a different font family 
+and color than the text? Yes<br /> 
+List below the CSS rules specifying the presentation style of the heading.
+</p> 
+<pre> 
+    .title {
+        color: green;
+        font-family:Futura, "Trebuchet MS", Arial, sans-serif ;
+        font-size: 50;
+        text-align: center;
+    }
+&nbsp; 
+</pre>
+
+<p>3. (5 points) Are the list-item markers of the outer list uppercase Roman numerals? Yes<br />
+Are the list-item markers of the inner list lowercase Greek letters? Yes<br />
+List below the CSS rules specifying the list-item markers of both outer and inner list.
+</p> 
+<pre> 
+    .rn {
+        /* Class for Roman Numerals */
+      list-style-type: upper-roman;
+        }
+    
+    ol {
+      
+      list-style-type: lower-greek; 
+    }
+    &nbsp; 
+</pre>
+
+<p>4. (5 points) Is the hypertext link in italics? Yes <br /> 
+Is the hypertext link not underlined?  Yes <br /> 
+List below the CSS rules specifying the presentation style of links.
+</p> 
+<pre> 
+    a {
+        /* Hypertext link for instagram */
+        color: blue;
+        font-style: italic;
+        text-decoration: none;
+    }
+    
+    &nbsp; 
+</pre>
+
+<p>5. (5 points) How does the presentation style of the link change for mouse hovers? <br />
+List below the CSS rules specifying the instant changes for mouse hovers.
+</p>
+<pre> 
+    a:hover {
+        /* Link background changes color when cursor hovers over it */
+        background-color: lightgreen;
+    }
+    &nbsp; 
+</pre>
+
+<p>6. (5 points) Are the two images displayed with borders? Yes<br />
+List below the CSS rules specifying image borders.
+</p> 
+<pre> 
+    img {
+        display: block;
+        border: 5px solid transparent;
+        border-image: url(https://scontent.cdninstagram.com/v/t51.39111-15/273405375_1182914045578886_6917142381204248159_n.jpg?stp=dst-jpg_s240x240&_nc_cat=103&ccb=1-5&_nc_sid=5a057b&_nc_ohc=hS0iVmHt__4AX8FQj0_&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.cdninstagram.com&oh=02_ARqA8YG2yyCRFFu3cB7VCjUGAVEXs2tu5YFyZBPtWVesuQ&oe=620FC8B5) 20% round;
+        border-image: url(https://scontent.cdninstagram.com/v/t51.39111-15/s240x240/273410977_4698845763559491_1897777742138379300_n.jpg?_nc_cat=107&ccb=1-5&_nc_sid=5a057b&_nc_ohc=_9WvbeXnQSMAX9XCM2f&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.cdninstagram.com&oh=02_ARq6uZ1kBXxmJTWH60uvIOYyNDIEaX5crgaOQCgmL1ji8g&oe=620F1FF7) 20% round;
+        margin: auto;
+        padding: 5px;
+      }
+    &nbsp; 
+</pre>
+
+<p>7. (5 points) Do the odd numbered rows of the table have a different background color than the even numbered rows?  Yes <br />
+List below the CSS rules specifying the background colors of the odd numbered rows and even numbered rows, respectively. 
+</p>
+<pre> 
+    .row0{
+        /* Class for even numbered table rows */
+      background:lightblue;
+     }
+     .row1{
+         /* Class for odd numbered table rows */
+      background:lightgreen;
+     }
+    &nbsp; 
+</pre>
+
+<p>8. (5 points) Does the style sheet contain CSS comments? Yes<br />
+List below the CSS source code of the comments. 
+</p> 
+<pre> 
+    /* Class for odd numbered table rows */
+    /* Class for even numbered table rows */
+    /* Link background changes color when cursor hovers over it */
+    /* Class for Roman Numerals */
+    /* Hypertext link for instagram */
+    &nbsp; 
+</pre>
+
+<p>9. (5 points) Do you put all CSS rules into an internal/embedded style sheet, that is, 
+embed all CSS rules directly in the webpage's head section? Yes<br />
+Which HTML element is for embedding CSS rules in the webpage's head section directly?
+</p>
+<pre> 
+    &lt;link rel="stylesheet" href="web_proj2.css"/&gt;
+    &nbsp; 
+</pre>
+
+
+</body>
+</html>
