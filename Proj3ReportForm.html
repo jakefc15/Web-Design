@@ -1,0 +1,52 @@
+<h1>Project Report Form</h1>
+<p>NAME: Jake Gilbert<span>&nbsp;</span><span class="movingRight">&#10003; I would like to have my webpage presented in the class.</span></p>
+<p>Total: 50 points (5% of final grade). The completeness and correctness of the project turn-in count for 5 points. Answers to the following questions count for 45 points.</p>
+<p>1. (5 points) Do you put all CSS rules in an external style sheet? Yes<br />List below the HTML code embedding the external style sheet into the webpage.</p>
+<p>&nbsp;
+    &lt;link rel="stylesheet" href="Proj3.css"/&gt;
+</p>
+<p>2. (5 points) Do the webpages have a favicon? Yes<br />List below the HTML source code for setting the favicon.</p>
+<p>&nbsp;
+    &lt;link rel="icon" type="x-icon" href="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.NYYqeSI5d83meTv09HH5CAHaHa%26pid%3DApi&f=1"&gt;
+</p>
+<p>3. (5 points) In Chapter 2 of the textbook, it's recommended to use CSS, rather than HTML table, to created webpage layouts. Explain why.</p>
+<p>&nbsp;
+    Using HTML table is not proper semantic HTML. Also, CSS gives the creator more options for layout. 
+</p>
+<p>4. (5 points) Why is it recommended to encode the same video file into multiple formats and embed those multiple video formats into webpages?</p>
+<p>&nbsp;
+    It is recommended because not all browsers embed videos the same way. When you embed a video multiple different ways, it allows
+    the webpage viewer to watch the video no matter what.
+</p>
+<p>5. (10 points) What kind of multimedia (Youtube) is embedded in the webpage?<br />List below the HTML source code for displaying multimedia.</p>
+<p>&nbsp;
+    &lt;iframe width="50%" height="50%" src="https://www.youtube.com/embed/V2ZD29lmBKY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
+</p>
+<p>6. (10 points) Do both webpages have the layout illustrated in the picture above? Yes<br />List below the HTML/CSS code for setting up layout.</p>
+<p>&nbsp;
+CSS:
+
+body {background-color:#FEFEFE; width:98%; margin:auto; font-family: helvetica, verdana, sans-serif; }
+h1 {margin: 1px 1px 3px 1px; padding: 1px 1px 1px 20px; height: 20px; font-size: 1.2em; color: navy;
+	background-image: url('./images/icon_square.gif'); background-repeat: no-repeat; background-position: left center; }
+h2 {float: left; font-size:1em; background-color:#99FFFF; margin: 2px 1px 3px 2px; padding: 2px 1px 1px 4px; width: 33%; height: 100%; min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+pre {clear: right; width: 50%; text-align: center;}
+
+li {padding-bottom: 0.3em;}
+li li {padding-bottom: 0.2em;}
+
+.highlight {color: navy; background-color: #FFFF99;}
+.noSpaceBelow {margin-bottom:0px; padding-bottom:0px;}
+.noSpaceAbove {margin-top:0px; padding-bottom:0px;}
+.movingRight {position: relative; left: 2em;}
+
+img.right {float: right; border-color: navy; border-style:solid; 
+				border-width:1px; margin: 2px;}	
+img.none {float: none; border-color: navy; border-style:solid; border-width:1px; vertical-align: top; width: 50%}
+footer{color:black; background-color:rgb(218, 209, 97); position: absolute; left: 1%; top: 100%; width: 100%}
+iframe{float: right;border-color: navy; border-style: solid; border-width: 1px; margin: 2px;}
+</p>
+<p>7. (5 points) Does the webpages pass HTML validation? No<br />Does the style sheet pass CSS validation? Yes</p>
