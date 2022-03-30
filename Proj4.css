@@ -1,0 +1,29 @@
+body {background-color:#FEFEFE; background-image: url("https://m.media-amazon.com/images/M/MV5BYzFmMjAwMDYtNzM0Zi00NjY2LWFjMjYtMGQ1OTRiZjk5YjJkXkEyXkFqcGdeQXVyMTMwODY5NDc2._V1_.jpg");width:98%; margin:auto; font-family: helvetica, verdana, sans-serif;}
+h1 {margin: 1px 1px 3px 1px; padding: 1px 1px 1px 20px; height: 20px; font-size: 1.2em; color: navy;
+	background-image: url('./images/icon_square.gif'); background-repeat: no-repeat; background-position: left center; }
+h2 {font-size:1em; background-color:#99FFFF; margin: 2px 1px 3px 2px; padding: 2px 1px 1px 4px; }
+
+li {padding-bottom: 0.3em;}
+li li {padding-bottom: 0.2em;}
+
+.highlight {color: navy; background-color: #FFFF99;}
+.noSpaceBelow {margin-bottom:0px; padding-bottom:0px;}
+.noSpaceAbove {margin-top:0px; padding-bottom:0px;}
+.movingRight {position: relative; left: 2em;}
+
+img.right {float: right; border-color: navy; border-style:solid;  
+				border-width:1px; margin: 2px; clear:right;}	
+img.none {float: none; border-color: navy; border-style:solid;  border-width:1px; vertical-align: top; }
+.container {
+	background-color:#f1f1f1;
+	position: relative;
+	right: -600px;
+	border: 3px solid #73AD21;
+	height: 200px;
+  	width: 33%;
+  }
+
+@media print {
+		a:after {content: " (" attr(href) ")";} 
+		a {text-decoration: none;}
+		}
