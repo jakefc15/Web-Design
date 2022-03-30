@@ -1,0 +1,114 @@
+<!DOCTYPE html> <!-- version: HTML 5 -->
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta name="Author" content="Chao Gong" />
+  <title>Web Development Project</title>
+  <style type = "text/css">
+  	@import url("./web_proj.css");
+  </style>
+</head>
+
+<body>
+<h1>Project Report Form</h1>
+<p>NAME: _________Jake Gilbert___________
+<span class="movingRight">&#10065; I would like to have my webpage presented in the class.</span></p>
+
+<p>Total: 50 points (5% of final grade). The completeness and correctness of the project turn-in count for 5 points. 
+Answers to the following questions count for 45 points.</p>
+<h2>Part I: HTML Form</h2>
+<p>1. (5 points) Does the webpage contain a text box for user account? Yes <br />
+List below the HTML source code of the user-account text box.
+</p><p> &nbsp; 
+	<div>
+		<div><span>&lt;</span><span>form</span> <span>action</span><span>=</span><span>"action_page.php"</span> <span>method</span><span>=</span><span>"post"</span><span>&gt;</span></div>
+		<div><span>&lt;</span><span>div</span> <span>class</span><span>=</span><span>"container"</span><span>&gt;</span></div>
+		<div><span>&lt;</span><span>label</span> <span>for</span><span>=</span><span>"uname"</span><span>&gt;&lt;</span><span>b</span><span>&gt;</span><span>Username</span><span>&lt;/</span><span>b</span><span>&gt;&lt;/</span><span>label</span><span>&gt;</span></div>
+		<div><span>&lt;</span><span>input</span> <span>type</span><span>=</span><span>"text"</span> <span>placeholder</span><span>=</span><span>"Enter Username"</span> <span>name</span><span>=</span><span>"uname"</span> <span>required</span><span>&gt;</span></div>
+		<div><span>&lt;</span><span>label</span> <span>for</span><span>=</span><span>"psw"</span><span>&gt;&lt;</span><span>b</span><span>&gt;</span><span>Password</span><span>&lt;/</span><span>b</span><span>&gt;&lt;/</span><span>label</span><span>&gt;</span></div>
+		<div><span>&lt;</span><span>input</span> <span>type</span><span>=</span><span>"password"</span> <span>placeholder</span><span>=</span><span>"Enter Password"</span> <span>name</span><span>=</span><span>"psw"</span> <span>required</span><span>&gt;</span></div>
+		<div><span>&lt;</span><span>button</span> <span>type</span><span>=</span><span>"submit"</span><span>&gt;</span><span>Submit</span><span>&lt;/</span><span>button</span><span>&gt;</span></div>
+		<div><span>&lt;</span><span>label</span><span>&gt;</span></div>
+		<div><span>&lt;</span><span>input</span> <span>type</span><span>=</span><span>"checkbox"</span> <span>checked</span><span>=</span><span>"checked"</span> <span>name</span><span>=</span><span>"remember"</span><span>&gt;</span><span> Remember me</span></div>
+		<div><span>&lt;/</span><span>label</span><span>&gt;</span></div>
+		<div><span>&lt;</span><span>label</span> <span>for</span><span>=</span><span>"Language"</span><span>&gt;</span><span>Choose a language:</span><span>&lt;/</span><span>label</span><span>&gt;</span></div>
+		<div><span>&lt;</span><span>select</span> <span>name</span><span>=</span><span>"languages"</span> <span>id</span><span>=</span><span>"Language"</span><span>&gt;</span></div>
+		<div><span>&lt;</span><span>option</span> <span>value</span><span>=</span><span>"English"</span><span>&gt;</span><span>English</span><span>&lt;/</span><span>option</span><span>&gt;</span></div>
+		<div><span>&lt;</span><span>option</span> <span>value</span><span>=</span><span>"Spanish"</span><span>&gt;</span><span>Spanish</span><span>&lt;/</span><span>option</span><span>&gt;</span></div>
+		<div><span>&lt;</span><span>option</span> <span>value</span><span>=</span><span>"French"</span><span>&gt;</span><span>French</span><span>&lt;/</span><span>option</span><span>&gt;</span></div>
+		<div><span>&lt;/</span><span>div</span><span>&gt;</span></div>
+	</div>
+</p>
+<p>2. (5 points) Does the webpage contain a password control? Yes <br />
+List below the HTML source code of the password control.
+</p> <p> &nbsp; 
+    <div>
+        <div><span>&lt;</span><span>input</span> <span>type</span><span>=</span><span>"password"</span> <span>placeholder</span><span>=</span><span>"Enter Password"</span> <span>name</span><span>=</span><span>"psw"</span> <span>required</span><span>&gt;</span></div>
+    </div>
+</p>
+<p>3. (5 points) Does the webpage contain a checkbox for staying signed in? Yes <br />
+List below the HTML source code of the checkbox.
+</p> <p> &nbsp; 
+    <div>
+        <div><span>&lt;</span><span>label</span><span>&gt;</span></div>
+        <div><span>&lt;</span><span>input</span> <span>type</span><span>=</span><span>"checkbox"</span> <span>checked</span><span>=</span><span>"checked"</span> <span>name</span><span>=</span><span>"remember"</span><span>&gt;</span><span> Remember me</span></div>
+        <div><span>&lt;/</span><span>label</span><span>&gt;</span></div>
+    </div>
+</p>
+<p>4. (5 points) Does the webpage contain a submit button? Yes<br />
+List below the HTML source code of the submit button.
+</p> <p> &nbsp; 
+    <div>
+        <div><span>&lt;</span><span>button</span> <span>type</span><span>=</span><span>"submit"</span><span>&gt;</span><span>Submit</span><span>&lt;/</span><span>button</span><span>&gt;</span></div>
+    </div>
+</p>
+<p>5. (5 points) Does the webpage contain a select list allowing users to choose language? Yes <br />
+List below the HTML source code of the select list.
+</p> <p> &nbsp; 
+    <div>
+        <div><span>&lt;</span><span>label</span> <span>for</span><span>=</span><span>"Language"</span><span>&gt;</span><span>Choose a language:</span><span>&lt;/</span><span>label</span><span>&gt;</span></div>
+        <div><span>&lt;</span><span>select</span> <span>name</span><span>=</span><span>"languages"</span> <span>id</span><span>=</span><span>"Language"</span><span>&gt;</span></div>
+        <div><span>&lt;</span><span>option</span> <span>value</span><span>=</span><span>"English"</span><span>&gt;</span><span>English</span><span>&lt;/</span><span>option</span><span>&gt;</span></div>
+        <div><span>&lt;</span><span>option</span> <span>value</span><span>=</span><span>"Spanish"</span><span>&gt;</span><span>Spanish</span><span>&lt;/</span><span>option</span><span>&gt;</span></div>
+        <div><span>&lt;</span><span>option</span> <span>value</span><span>=</span><span>"French"</span><span>&gt;</span><span>French</span><span>&lt;/</span><span>option</span><span>&gt;</span></div>
+    </div>
+</p>
+
+<p>6. (5 points) Are there <code>&lt;label&gt;</code> tags in the HTML source code of the webpage? Yes <br />
+Why is it recommended to put the input element and its label altogether in the content of <code>&lt;label&gt;</code> 
+elements?</p><p> &nbsp;
+    It is recommended because it helps people using assistive technology. It also helps users be able to click the element.</p>
+
+<p>7. (5 points) The <code>&lt;form&gt;</code> tag has two attributes, <code>action</code> and <code>method</code>. 
+What is the function of those two attributes, respectively?  The funcion of method specifies how to send the form data.
+The function of action specifies where to send the form data.<br />
+What are the values of those two attributes in your webpage? The value of the two attributes are "action_page.php" and "post".
+</p><p> &nbsp; </p>
+
+<h2>Part II: External Style Sheet</h2>
+
+<p>8. (5 points) Does the webpage have a background image? Yes <br />
+List below the CSS rules setting up the background image.
+</p><p> &nbsp; 
+    background-image: url("https://m.media-amazon.com/images/M/MV5BYzFmMjAwMDYtNzM0Zi00NjY2LWFjMjYtMGQ1OTRiZjk5YjJkXkEyXkFqcGdeQXVyMTMwODY5NDc2._V1_.jpg");
+</p>
+
+<p>9. (5 points) Is the HTML form displayed on the right part of the screen? Yes <br />
+List below the CSS rules specifying the position of the form.
+</p><p> &nbsp; 
+    <div>
+        <div><span>.container</span><span> {</span></div>
+        <div><span>background-color</span><span>:</span><span>#f1f1f1</span><span>;</span></div>
+        <div><span>position</span><span>: </span><span>relative</span><span>;</span></div>
+        <div><span>right</span><span>: </span><span>-600px</span><span>;</span></div>
+        <div><span>border</span><span>: </span><span>3px</span> <span>solid</span> <span>#73AD21</span><span>;</span></div>
+        <div><span>height</span><span>: </span><span>200px</span><span>;</span></div>
+        <div><span>width</span><span>: </span><span>33%</span><span>;</span></div>
+        <div><span> }</span></div>
+    </div>
+</p>
+
+
+
+</body>
+</html>
