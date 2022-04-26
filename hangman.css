@@ -1,0 +1,33 @@
+/* Hangman game CSS code */
+body {
+    background-color: #31343a;
+    background-image: url("https://static.vecteezy.com/system/resources/thumbnails/007/043/265/small/green-chalkboard-background-template-background-with-a-white-chalk-traces-vector.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #FBF7F5;
+    margin: auto;
+    text-align: center;
+}
+
+/* bottom area containing the New Game button */
+#newgamearea {
+    margin-top: 2em;
+}
+
+/* large courier font for word clues and guesses */
+#clue, #guesses {
+    font-family:monospace;
+    font-size: 2em;
+    padding: 1em;
+   
+}
+/* website background color*/
+#hangmanpic {
+    background-color: #FBF7F5;
+}
+
+.center{
+    position: relative;               
+    top: 40%;                         
+    transform: translate(0, -50%)
+}
