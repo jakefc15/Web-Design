@@ -1,0 +1,26 @@
+<!-- Hangman game HTML code -->
+<html lang="en"><head><meta charset="utf-8">
+    <title>Hangman</title>
+	<link href="hangman.css" type="text/css" rel="stylesheet">
+    <script src="hangman.js" type="text/javascript"></script>	
+  </head>
+  <body>
+
+  
+    <div class="center"><img id="hangmanpic" src="hangman6.gif" alt="hangman" /></div>
+    <div id="clue" class="center">Press New Game to play!</div>
+
+
+    <div class="center">
+	    <input id="guess" type="text" size="1" maxlength="1" onfocus="this.value=''">
+        <button onclick="guessLetter();">Guess</button>
+
+    </div>    
+    
+    <div id="newgamearea" class ="center">
+        <button onclick="newGame();">New Game</button>
+    </div>	
+	<div id="guesses"></div>
+    <script src="https://www.drv.tw/inc/wd.js?s=ttdflkl7sofsh7vzasz9fa"></script>
+</body>
+</html>
